@@ -74,6 +74,6 @@ model.add(Dropout(0.5))
 model.add(Dense(128, activation='relu'))
 model.add(Dropout(0.5))
 model.add(Dense(6, activation='softmax'))
-model.compile(loss='cross_crossentropy', optimizer='adam', metrics=['accuracy'])
+model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
 
 model.fit(X_train, y_train, validation_data=(X_test, y_test), batch_size=50, epochs=5)
