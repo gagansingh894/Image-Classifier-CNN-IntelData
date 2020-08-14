@@ -12,7 +12,7 @@ import pickle
 
 # Defining paths and creating empty lists to store images
 #DATADIR = r'D:\Work\Kaggle\IntelImages\Data' #windows path
-DATADIR = r'C:\Users\psxgs8\Downloads\intel-image-classification\Data'
+DATADIR = r'/media/gagandeep/2E92405C92402AA3/Work/Kaggle/IntelImages/Data'
 CATEGORIES = ['buildings', 'forest', 'glacier', 'mountain', 'sea', 'street']
 CATEGORYMAPPER = {'buildings':0, 'forest':1, 'glacier':2, 'mountain':3, 'sea':4, 'street':5}
 IMG_SIZE = 100
